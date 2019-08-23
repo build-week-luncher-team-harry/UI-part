@@ -1,6 +1,10 @@
-// mobile styling
+// 
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+body{
+    background-color:beige;
 }
 ul {
     display: flex;
@@ -44,7 +48,6 @@ ul {
    
 }
 
-
 .luncher-header{
     display:flex;
     flex-direction: row;
@@ -52,9 +55,11 @@ ul {
     margin:0 auto;
     width:98%;
     height:100%;
-    background-image: url(/images/back-to-school.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    // background-image: url(/images/back-to-school.jpg);
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // was just trying out fixed backgrounds
+    background-color: #dae52d;
     
 
     .slogan{
@@ -82,20 +87,54 @@ ul {
 .main-body{
     display:flex;
     flex-direction: column;
+    align-content: center;
+   
+//    can be mixin form @slogan
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 30px;
+    
+
 
     .form-box{
+        // add mixins here
         display:flex;
         flex-direction: column;
         justify-content: center;
+        padding: 20px;
+        margin:0 auto;
+
+        h2{
+            display: flex;
+            justify-content: center;
+        }
+       
     }
+}
+
+.form1{
+    display:flex;
+    justify-content: center;
+    
 
     .donation-form{
         display:flex;
         flex-direction: column;
+        align-items: center;
+        background-color:lightgrey;
         // justify-content: center;
+        // align-content: center;
+        border-radius:20px;
+        padding:10px;
+        width: 75%;
+        height: 375px;
+        
+
+    }
         
         button{
-            width:50%;
+            width:300px;
             margin:0 auto;
             height: 50px;
             border-radius: 10px;
@@ -109,18 +148,31 @@ ul {
                 cursor: pointer;
             }
         
+        }
+
+ .test{
+    //    add mixins here
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        margin:0 auto;
     }
 
-    .test{
-        flex-direction: row;
-    }
-
-    .donation{
+.donation{
+        // add mixins here 
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
         margin:0 auto;
 
-        
+        h2{
+            display: flex;
+            justify-content: center;
+        }
     }
-}
+
 
 footer{
     display:flex;
