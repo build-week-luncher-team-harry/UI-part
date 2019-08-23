@@ -4,7 +4,9 @@
    
 }
 body{
+    box-sizing: border-box;
     background-color:beige;
+    margin:0 auto;
 }
 ul {
     display: flex;
@@ -18,9 +20,8 @@ ul {
     // opacity: 0.7;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-    // box-shadow: 2px -3px 22px 1px black;
     text-decoration: none;
-    // border-radius: 10px;
+    position: fixed;
 
   
     .logo-img{
@@ -31,6 +32,7 @@ ul {
     
   
     a{
+        margin:0px;
         color:white;
         opacity: none;
         text-decoration: bold;
@@ -176,8 +178,12 @@ footer{
     justify-content: center;
     color: white;
 
+    
+
     .nav-footer{
         display:flex;
         justify-content: space-around;
+        position: relative;
+        
     }
 }
