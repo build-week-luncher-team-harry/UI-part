@@ -1,16 +1,19 @@
 ul {
   display: flex;
   flex-direction: row;
+  align-content: left;
   justify-content: space-around;
   list-style-type: none;
   margin: 0 auto;
   padding: 10px;
-  width: 100%;
+  width: 98%;
+  height: 100%;
   background-color: darkgreen;
   opacity: 0.7;
   font-family: 'Courier New', Courier, monospace;
   box-shadow: 2px -3px 22px 1px black;
   text-decoration: none;
+  border-radius: 10px;
 }
 ul .logo-img {
   display: flex;
