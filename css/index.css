@@ -12,8 +12,7 @@ ul {
   margin: 0 auto;
   padding: 10px;
   width: 98%;
-  height: 100%;
-  background-color: darkgreen;
+  background-color: black;
   font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
 }
@@ -22,7 +21,7 @@ ul .logo-img {
   align-items: center;
 }
 ul a {
-  color: black;
+  color: white;
   opacity: none;
   text-decoration: bold;
 }
@@ -40,8 +39,10 @@ ul a:hover {
   justify-content: center;
   margin: 0 auto;
   width: 98%;
-  height: 100%;
-  background-color: #dae52d;
+  background-color: #ffde59;
+}
+.luncher-header .luncher {
+  width: 100%;
 }
 .luncher-header .slogan {
   margin-bottom: 20px;
@@ -132,6 +133,7 @@ ul a:hover {
 footer {
   display: flex;
   justify-content: center;
+  color: white;
 }
 footer .nav-footer {
   display: flex;
