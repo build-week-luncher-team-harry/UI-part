@@ -44,6 +44,28 @@ ul a:hover {
   display: flex;
   flex-direction: column;
 }
+.main-body .form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-body .donation-form {
+  display: flex;
+  flex-direction: column;
+}
+.main-body .donation-form button {
+  width: 50%;
+  margin: 0 auto;
+  height: 50px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  color: white;
+}
+.main-body .donation-form button:hover {
+  background-color: lightgoldenrodyellow;
+  color: black;
+  cursor: pointer;
+}
 .main-body .test {
   flex-direction: row;
 }
