@@ -1,7 +1,7 @@
 ul {
   display: flex;
   flex-direction: row;
-  align-content: left;
+  align-content: center;
   justify-content: space-around;
   list-style-type: none;
   margin: 0 auto;
@@ -27,8 +27,30 @@ ul a {
 ul a:hover {
   color: lightgreen;
 }
-@media screen (max-width: 500px) {
-  ul {
-    width: 100%;
-  }
+.luncher-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  width: 98%;
+  background-image: url(/images/back-to-school.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.luncher-header .slogan {
+  flex-direction: column;
+}
+.main-body {
+  display: flex;
+  flex-direction: column;
+}
+.main-body .test {
+  flex-direction: row;
+}
+.main-body .donation {
+  margin: 0 auto;
+}
+footer {
+  display: flex;
+  justify-content: center;
 }

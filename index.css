@@ -48,5 +48,9 @@ table {
 }
 /* Reset */
 
+*{
+    box-sizing:border-box;
+    max-width: 800px;
+}
 
 /* counter */
