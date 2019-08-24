@@ -1,0 +1,144 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  box-sizing: border-box;
+  background-color: beige;
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  position: fixed;
+}
+ul .logo-img {
+  display: flex;
+  align-items: center;
+}
+ul a {
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+}
+ul a:hover {
+  color: lightgreen;
+}
+@media (max-width: 500px) {
+  ul {
+    width: 98%;
+  }
+}
+.luncher-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ffde59;
+}
+.luncher-header .luncher {
+  width: 100%;
+}
+.luncher-header .slogan {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 30px;
+  color: white;
+}
+.luncher-header p {
+  margin: 0 0 10px;
+  font-size: 21px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width: 500px) {
+  .luncher-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 89%;
+  }
+}
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 30px;
+}
+.main-body .form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+.main-body .form-box h2 {
+  display: flex;
+  justify-content: center;
+}
+.form1 {
+  display: flex;
+  justify-content: center;
+}
+.form1 .donation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgrey;
+  border-radius: 20px;
+  padding: 10px;
+  width: 75%;
+  height: 375px;
+}
+.form1 button {
+  width: 300px;
+  margin: 0 auto;
+  height: 50px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  color: white;
+}
+.form1 button:hover {
+  background-color: lightgoldenrodyellow;
+  color: black;
+  cursor: pointer;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+.donation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+.donation h2 {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+footer .nav-footer {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
