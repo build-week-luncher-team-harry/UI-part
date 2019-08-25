@@ -85,12 +85,11 @@ ul {
     display:flex;
     flex-direction: column;
     align-content: center;
-   
-//    can be mixin form @slogan
     margin-bottom: 20px;
     font-size: 15px;
     font-weight: 200;
     line-height: 30px;
+    // mixin
     
 
 
@@ -147,14 +146,24 @@ ul {
         
         }
 
- .test{
+.test{
     //  mixin
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px;
-        margin:0 auto;
-    }
+        // display:flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // padding: 20px;
+        // margin:0 auto;
+        .form-box();
+         
+  
+            @media(max-width:500px){
+                display:flex;
+                flex-direction: column;
+            }
+        }
+
+ 
+       
 
 .donation{
         // add mixins here 
@@ -163,14 +172,14 @@ ul {
         // justify-content: center;
         // padding: 20px;
         // margin:0 auto;
-        .test();
+        .main-body();
 
         h2{
             display: flex;
             justify-content: center;
         }
     }
-
+ 
 
 footer{
     display:flex;
