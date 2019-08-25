@@ -121,6 +121,16 @@ ul a:hover {
   padding: 20px;
   margin: 0 auto;
 }
+.test h2 {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .test {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .donation {
   display: flex;
   flex-direction: column;
