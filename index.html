@@ -9,7 +9,11 @@
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
+  
+<link rel="icon" href="images/favicon2.png" src="images/luncherFavicon.png">
+
   <script src="js/index.js"></script> 
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -20,7 +24,7 @@
 <section class="nav">
     <ul class="nav-bar">
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="#">Schools</a></li>
         <li><a href="#">Login/Sign Up</a></li>
     </ul>
@@ -71,23 +75,41 @@
                 <label>Donation Amount</label>
                 <input type="num" value="number">
             </p>
-            <button href="#">Click Here to Donate!</button> 
+            <button href="#" onclick="changeText(this)" id="button">Click Here to Donate!</button> 
         </form>
     </div>
 </section>
      
 
-<section>
-     <div class="test">
-         <h2>Testimonials</h2>
-<!-- carousel -->
-        
-            <p>God gave you this gift of imagination. Use it. It's a super day, so why not make a beautiful sky? Every day I learn. Those great big fluffy clouds. Very easy to work these to death. If you overwork it you become a cloud killer. There's nothing worse than a cloud killer.</p>
-            <p>God gave you this gift of imagination. Use it. It's a super day, so why not make a beautiful sky? Every day I learn. Those great big fluffy clouds. Very easy to work these to death. If you overwork it you become a cloud killer. There's nothing worse than a cloud killer.</p>
-            <p>God gave you this gift of imagination. Use it. It's a super day, so why not make a beautiful sky? Every day I learn. Those great big fluffy clouds. Very easy to work these to death. If you overwork it you become a cloud killer. There's nothing worse than a cloud killer.</p>
-        
-    </div>
+<section class="test">
+     <div>
+         <h2>Testimonials:</h2>
+           
+      </div>
+   
+       
+       <!-- testimonials -->
 
+        <div class="container">
+            <img src="images/favicon2.png" alt="luncher-logo" class="test-img" style="width:95px"><!--Holder for pic-->
+          <p>John Smith<span> School Name/Company</span></p>
+            <p>God gave you this gift of imagination. Use it. It's a super day, so why not make a beautiful sky? Every day I learn. Those great big fluffy clouds. Very easy to work these to death. If you overwork it you become a cloud killer. There's nothing worse than a cloud killer.</p>
+        </div>
+        
+        <div class="container">
+            <img src="images/favicon2.png" alt="luncher-logo" class="test-img" style="width:95px">
+          <p>John Smith<span> School Name/Company</span></p>
+            <p>God gave you this gift of imagination. Use it. It's a super day, so why not make a beautiful sky? Every day I learn. Those great big fluffy clouds. Very easy to work these to death. If you overwork it you become a cloud killer. There's nothing worse than a cloud killer.</p>
+        </div>
+        
+        <div class="container">
+            <img src="images/favicon2.png" alt="luncher-logo" class="test-img" style="width:95px">
+          <p>John Smith<span> School Name/Company</span></p>
+             <p>God gave you this gift of imagination. Use it. It's a super day, so why not make a beautiful sky? Every day I learn. Those great big fluffy clouds. Very easy to work these to death. If you overwork it you become a cloud killer. There's nothing worse than a cloud killer.</p>
+        </div>   
+</section>
+
+<section>
      <div class="donation">
          <h2>Look How Much People Have Already Donated!</h2>
           <button>Holder for the Donation Counter</button>

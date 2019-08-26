@@ -85,12 +85,11 @@ ul {
     display:flex;
     flex-direction: column;
     align-content: center;
-   
-//    can be mixin form @slogan
     margin-bottom: 20px;
     font-size: 15px;
     font-weight: 200;
     line-height: 30px;
+    // mixin
     
 
 
@@ -120,13 +119,14 @@ ul {
         flex-direction: column;
         align-items: center;
         background-color:lightgrey;
-        // justify-content: center;
-        // align-content: center;
         border-radius:20px;
         padding:10px;
-        width: 75%;
+        width: 450px;
         height: 375px;
         
+        @media(max-width:500px){
+            width: 55%;
+        }
 
     }
         
@@ -136,7 +136,13 @@ ul {
             height: 50px;
             border-radius: 10px;
             background-color:lightgreen;
-            color:white 
+            color:white; 
+            font-size: 15px;
+            font-weight:bold;
+
+            @media(max-width:500px){
+                width: 55%;
+            }
         
         }
             button:hover{
@@ -147,30 +153,41 @@ ul {
         
         }
 
- .test{
+.test{
     //  mixin
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px;
-        margin:0 auto;
-    }
-
-.donation{
-        // add mixins here 
         // display:flex;
         // flex-direction: column;
         // justify-content: center;
         // padding: 20px;
         // margin:0 auto;
-        .test();
+        // .form-box();
+        .donation();
+
+        
+            @media(max-width:500px){
+                display:flex;
+                flex-direction: column;
+            }
+      
+        }
+ 
+       
+
+.donation{
+        // add mixins here 
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        margin:0 auto;
+        // .main-body();
 
         h2{
             display: flex;
             justify-content: center;
         }
     }
-
+ 
 
 footer{
     display:flex;
