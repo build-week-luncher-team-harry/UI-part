@@ -6,6 +6,18 @@ body {
   background-color: beige;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 ul {
   display: flex;
   flex-direction: row;
@@ -18,10 +30,6 @@ ul {
   font-family: 'Courier New', Courier, monospace;
   position: fixed;
 }
-ul .logo-img {
-  display: flex;
-  align-items: center;
-}
 ul a {
   margin: 0px;
   color: white;
@@ -32,7 +40,7 @@ ul a:hover {
 }
 @media (max-width: 500px) {
   ul {
-    width: 98%;
+    width: 100%;
   }
 }
 .luncher-header {
@@ -103,7 +111,7 @@ ul a:hover {
 }
 @media (max-width: 500px) {
   .form1 .donation-form {
-    width: 55%;
+    width: 50%;
   }
 }
 .form1 button {
@@ -118,7 +126,7 @@ ul a:hover {
 }
 @media (max-width: 500px) {
   .form1 button {
-    width: 55%;
+    width: 100%;
   }
 }
 .form1 button:hover {
@@ -158,9 +166,20 @@ footer {
   display: flex;
   justify-content: center;
   color: white;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  footer {
+    width: 100%;
+  }
+  footer p {
+    font-size: 0.5em;
+  }
 }
 footer .nav-footer {
   display: flex;
   justify-content: space-around;
+  padding: 10px;
   position: relative;
+  margin: 0 auto;
 }
