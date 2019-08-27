@@ -183,3 +183,25 @@ footer .nav-footer {
   position: relative;
   margin: 0 auto;
 }
+h2 {
+  display: flex;
+  justify-content: center;
+}
+.image-pics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-pic {
+  padding: 5%;
+}
