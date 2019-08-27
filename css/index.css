@@ -5,11 +5,13 @@ body {
   box-sizing: border-box;
   background-color: beige;
   margin: 0 auto;
+  font-size: 1em;
 }
 @media (max-width: 800px) {
   body {
     width: 100%;
     margin: 0 auto;
+    font-size: 0.8em;
   }
 }
 @media (max-width: 500px) {
@@ -152,6 +154,27 @@ ul a:hover {
   display: flex;
   justify-content: center;
 }
+.test button {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: ghostwhite;
+  font-size: 15px;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  .test button {
+    width: 100%;
+  }
+}
+.test button:hover {
+  background-color: ghostwhite;
+  color: royalblue;
+  cursor: pointer;
+}
 @media (max-width: 500px) {
   .test {
     display: flex;
@@ -169,12 +192,39 @@ ul a:hover {
   display: flex;
   justify-content: center;
 }
+.donation button {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: ghostwhite;
+  font-size: 15px;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  .donation button {
+    width: 100%;
+  }
+}
+.donation button:hover {
+  background-color: ghostwhite;
+  color: royalblue;
+  cursor: pointer;
+}
 #donations {
   width: 100%;
   height: 2em;
-  background-color: lightgreen;
+  background-color: lightgrey;
   text-align: center;
   color: black;
+  border-radius: 10px;
+}
+#bar {
+  width: 75%;
+  height: 30px;
+  background-color: lightgreen;
   border-radius: 10px;
 }
 footer {
