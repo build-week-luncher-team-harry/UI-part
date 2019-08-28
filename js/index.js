@@ -6,6 +6,8 @@ function changeText(button) {
     button.innerHTML = "Thank You!";
   }
 
+
+
 //   counter
 function move() {
     var elem = document.getElementById("bar"); 
